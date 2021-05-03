@@ -1,3 +1,3 @@
 ## #Web_Chat
 
-### Chatroom Web app by Js and Firebase
+### Chatroom Web app using Js and Firebase
