@@ -45,6 +45,8 @@ class Chatroom {
     //update username
     updateName(name) {
         this.username = name;
+        //save name in local storage
+        
     }
 
     //update the room
@@ -56,23 +58,3 @@ class Chatroom {
     }
 }
 
-const chatroom = new Chatroom('gaming', 'Nayana');
-
-// chatroom.addChat('booya!')
-//     .then(() => console.log("message sent!"))
-//     .catch((err) => console.log(err));
-
-chatroom.getChats((data) => {
-    console.log(data);
-})
-
-
-// setTimeout(() => {
-//     chatroom.updateRoom('gaming');
-//     chatroom.updateName('Batman');
-//     chatroom.getChats((data) => {
-//         console.log(data);
-//     });
-//     chatroom.addChat('hello');
-
-// }, 3000);
